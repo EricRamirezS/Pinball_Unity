@@ -20,6 +20,21 @@ TextureImporter:
   - first:
       213: 6813553822765877458
     second: Bumper-Red
+  - first:
+      213: -5082647686934749709
+    second: multiplier x2
+  - first:
+      213: -2423230811885516303
+    second: multiplier x3
+  - first:
+      213: 1211998406744890917
+    second: multiplier x1
+  - first:
+      213: 6155212226941906339
+    second: multiplier x4
+  - first:
+      213: -2950032572879587788
+    second: Spring
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,7 +138,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 321
+        y: 375
         width: 179
         height: 85
       alignment: 9
@@ -215,7 +230,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 278
-        y: 364
+        y: 418
         width: 42
         height: 42
       alignment: 0
@@ -236,7 +251,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
+        y: 214
         width: 160
         height: 160
       alignment: 0
@@ -257,7 +272,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 160
+        y: 214
         width: 160
         height: 160
       alignment: 0
@@ -277,9 +292,9 @@ TextureImporter:
       name: Bumper-Yellow
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 159
+        x: 0
+        y: 54
+        width: 160
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -299,8 +314,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 0
-        width: 159
+        y: 54
+        width: 160
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -311,6 +326,111 @@ TextureImporter:
       bones: []
       spriteID: 2d807ff1a1b9e8e50800000000000000
       internalID: 6813553822765877458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplier x2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 86
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd1bc59bdec679b0800000000000000
+      internalID: -5082647686934749709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplier x3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 86
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f948c85a64fe5ed0800000000000000
+      internalID: -2423230811885516303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplier x1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 86
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e5e562122e1d010800000000000000
+      internalID: 1211998406744890917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplier x4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 86
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad6300a8e4bb6550800000000000000
+      internalID: 6155212226941906339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spring
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 54
+        width: 42
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4363ea141016f07d0800000000000000
+      internalID: -2950032572879587788
       vertices: []
       indices: 
       edges: []
