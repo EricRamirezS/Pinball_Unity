@@ -1,21 +1,16 @@
 ﻿using UnityEngine;
 
-public class DeathController : MonoBehaviour
-{
-    
-    private int _ballCount = 2;
+public class DeathController : MonoBehaviour {
     [SerializeField] private BallController ball;
-    
-    private void OnTriggerEnter2D(Collider2D other) {
 
+    private void OnTriggerEnter2D(Collider2D other) {
         if (!other.CompareTag("Player")) return;
-    
-        _ballCount--;
-        
-        {
+
+        if (GameManager.loseLife()) {
             ball.Reset();
         }
-        if (_ballCount < 0) return;
-        
+        else {
+            GameManager.GameOver();
+        }
     }
 }
