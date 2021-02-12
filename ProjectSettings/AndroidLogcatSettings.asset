@@ -3,8 +3,8 @@
     "m_SelectedPackage": {
         "deviceId": "6JHNW19C18000591",
         "name": "com.EricRamirezS.Pinball",
-        "processId": 32067,
-        "exited": false
+        "processId": 19609,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -163,6 +163,12 @@
             "name": "com.EricRamirezS.Pinball",
             "processId": 32067,
             "exited": false
+        },
+        {
+            "deviceId": "6JHNW19C18000591",
+            "name": "com.EricRamirezS.Pinball",
+            "processId": 19609,
+            "exited": true
         }
     ],
     "m_Tags": {
